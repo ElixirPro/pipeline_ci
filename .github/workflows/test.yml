@@ -3,7 +3,7 @@ name: Tests and Coverage
 on: pull_request
 
 jobs: 
-  lint:
+  tests_and_coverage:
     runs-on: ubuntu-latest
     strategy:
       matrix:

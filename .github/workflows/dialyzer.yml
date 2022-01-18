@@ -3,7 +3,7 @@ name: Dialyzer
 on: pull_request
 
 jobs: 
-  lint:
+  dialyzer:
     runs-on: ubuntu-latest
     strategy:
       matrix:

@@ -3,7 +3,7 @@ name: Security
 on: pull_request
 
 jobs: 
-  lint:
+  security:
     runs-on: ubuntu-latest
     strategy:
       matrix:
