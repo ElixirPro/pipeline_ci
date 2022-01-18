@@ -42,6 +42,7 @@ defmodule PipelineCiWeb.Router do
       live_dashboard "/dashboard", metrics: PipelineCiWeb.Telemetry
     end
   end
+
   # coveralls-ignore-stop
 
   # Enables the Swoosh mailbox preview in development.
